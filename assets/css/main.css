@@ -2175,8 +2175,10 @@
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
-				background-size: 128px 128px, auto;
+				background-image: url("../../images/jail-01.jpeg");
+				background-size:     cover;
+				background-repeat:   no-repeat;
+				background-position: center center;
 			}
 
 			.panel > *.color1 {
@@ -3670,3 +3672,38 @@
 			}
 
 	}
+
+
+/* custom css */
+
+.black-bg {
+	background-color: black;
+	opacity: 0.75;
+	padding: 10px;
+	color: #8cccd6;
+}
+
+.godazed-title-link {
+	border-bottom: none !important;
+}
+
+.drop-brax {
+	position: absolute;
+	bottom: 15px;
+	right: 45px;
+}
+
+.welcomed-back {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+}
+
+.chains-img {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
